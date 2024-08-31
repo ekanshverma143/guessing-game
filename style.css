@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3b3b3b;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#feedback-message {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+#attempt-count {
+    color: #5bc0de;
+}
+
+#restart-btn {
+    background-color: #5cb85c;
+    margin-top: 20px;
+}
+
+#restart-btn:hover {
+    background-color: #4cae4c;
+}
+
+#guesses-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#guesses-list h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#past-guesses {
+    list-style-type: none;
+    padding: 0;
+}
+
+#past-guesses li {
+    background-color: #e9e9e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#correct-answer-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745; /* Green color for correct answer */
+    margin-top: 20px;
+}
